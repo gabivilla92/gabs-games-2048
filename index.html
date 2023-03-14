@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo 2048</title>
+    <link rel="stylesheet" href="class.css">
+</head>
+<body>
+    <main>
+        <header>
+            <div id="title-header">
+                <h1>2048</h1>
+                <div class="score">
+                    <h3>BEST</h3>
+                    <span id="best-score" class="score">0</span>
+                </div>
+                <div class="score">
+                    <h3>SCORE</h3>
+                    <span id="actual-score" class="score">0</span>
+                </div>
+            </div id="info-header">
+                <div>
+                <p>Join the tiles, get to <strong>2048!</strong></p>
+                <br>
+                <a href="#" >How to play &rarr;</a>
+                <a href="#" class="new-game">
+                    New Game
+                </a>
+                <a href="#" id="return">Return</a>
+            </div>
+        </header>
+        <div class="game">
+            <table>
+                <tr id="row-one">
+                    <td class="col-one">
+                        <div value="0" class="empty-cell"></div>
+                    </td>
+                    <td class="col-two">
+                        <div value="0" class="empty-cell"></div>
+                    </td>
+                    <td class="col-three">
+                        <div value="0" class="empty-cell"></div>
+                    </td>
+                    <td class="col-four">
+                        <div value="0" class="empty-cell"></div>
+                    </td>
+                </tr>
+                <tr id="row-two">
+                    <td class="col-one">
+                        <div value="0" class="empty-cell"></div>
+                    </td>
+                    <td class="col-two">
+                        <div value="0" class="empty-cell"></div>
+                    </td>
+                    <td class="col-three">
+                        <div value="0" class="empty-cell"></div>
+                    </td>
+                    <td class="col-four">
+                        <div value="0" class="empty-cell"></div>
+                    </td>
+                </tr>
+                <tr id="row-three">
+                    <td class="col-one">
+                        <div value="0" class="empty-cell"></div>
+                    </td>
+                    <td class="col-two">
+                        <div value="0" class="empty-cell"></div>
+                    </td>
+                    <td class="col-three">
+                        <div value="0" class="empty-cell"></div>
+                    </td>
+                    <td class="col-four">
+                        <div value="0" class="empty-cell"></div>
+                    </td>
+                </tr>
+                <tr id="row-four">
+                    <td class="col-one">
+                        <div value="0" class="empty-cell"></div>
+                    </td>
+                    <td class="col-two">
+                        <div value="0" class="empty-cell"></div>
+                    </td>
+                    <td class="col-three">
+                        <div value="0" class="empty-cell"></div>
+                    </td>
+                    <td class="col-four">
+                        <div value="0" class="empty-cell"></div>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+
+        <p id="instructions"><strong>HOW TO PLAY:</strong>Use your <strong> arrow keys</strong> to move the tiles. Tiles with the same number <strong>merge into one</strong> when they touch. Add them up to reach <strong>2048!</strong></p>
+        <p><a href="#">Start playing &rarr;</a></p>
+        <hr>
+        <footer>
+            <p>Created by <a href="https://www.linkedin.com/in/gabriela-villaescusa-6ba042b6/">Gabriela Villaescusa</a></p>
+        </footer>
+    </main>
+    
+
+    <script src="class.js"></script>
+    
+</body>
+</html>
